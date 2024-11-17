@@ -1,0 +1,132 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background for a fresh look */
+    color: #333;
+}
+
+/* Header styling */
+.header {
+    background-color: #ff6f61; /* Coral color for header */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 2rem; /* Adjust font size for better readability */
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    white-space: nowrap; /* Ensure header text stays on one line */
+    overflow: hidden; /* Prevent overflow */
+    text-overflow: ellipsis; /* Add ellipsis if text overflows */
+}
+
+/* Main content styling */
+.container {
+    padding: 20px;
+    max-width: 1000px; /* Increase the max width of the container */
+    margin: 0 auto;
+}
+
+/* Form styling */
+.form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+/* Styling for the Predict button */
+.button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the Predict button */
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the Reset button */
+.reset-button {
+    background-color: #f44336; /* Red background */
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* Adds space between Predict and Reset buttons */
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the Reset button */
+.reset-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Result styling */
+.result {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.result h2 {
+    color: #ff6f61;
+}
+
+.result ul {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.result ul li {
+    margin-bottom: 8px;
+}
+
+/* Error styling */
+.error {
+    color: red;
+    margin-top: 20px;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #424242; /* Dark gray footer */
+    color: #f0f8ff; /* Light blue text for contrast */
+    font-size: 0.9rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Additional text styling */
+h1 {
+    font-size: 2rem; /* Adjust size for better readability */
+    text-align: center;
+    margin-bottom: 20px;
+    white-space: nowrap; /* Prevents wrapping */
+}

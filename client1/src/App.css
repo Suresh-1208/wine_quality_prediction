@@ -1,0 +1,85 @@
+/* General body styling */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9; /* Light gray background */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main container styling */
+.container {
+  flex: 1;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f4f4f9;
+}
+
+/* Home page container */
+.home-container {
+  text-align: center;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Header title styling */
+.header-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Button container styling */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between the buttons */
+}
+
+/* Link styling */
+.link-style {
+  text-decoration: none;
+}
+
+/* Button styling */
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Error styling */
+.error {
+  color: red;
+  margin-top: 20px;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #424242; /* Dark gray footer */
+  color: #f0f8ff; /* Light blue text for contrast */
+  font-size: 0.9rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
