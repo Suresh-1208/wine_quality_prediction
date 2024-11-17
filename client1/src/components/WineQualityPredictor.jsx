@@ -38,7 +38,7 @@ const WineQualityPredictor = () => {
       );
 
       // Send POST request to Flask backend
-      const res = await axios.post("http://127.0.0.1:5000/predict", {
+      const res = await axios.post("https://wine-quality-prediction-4wzo.onrender.com/predict", {
         features: featureValues,
       });
 
